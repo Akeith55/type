@@ -1,6 +1,6 @@
 @font-face {
     src: url("fonts/Eurocat-Medium.woff") format("woff"),
-         url('fonts/Eurocat-Medium.otf') format("otf"),
+         url("fonts/EurocatSansVF.ttf") format("ttf"),
          url('fonts/Eurocat-Medium.woff2') format('woff2');
 
     font-family: 'Eurocat';
@@ -40,29 +40,31 @@ body {
     font-family: 'Eurocat'; 
 }
 
-.variations {
-    
+.variations-container {
+    display: grid;
     grid-area:auto; 
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
     
 }
         
 
     .font1 {
-        align-self: start;
+        /* align-self: start; */
         font-family: 'EurocatBase-Regular';
         color:antiquewhite
     }
       
 
     .font2 {
-        align-self: start;
+        /* align-self: start; */
         font-family: 'EurocatSans-Regular';
         color:antiquewhite
       }
 
     .font3 {
-        align-self: start;
+        /* align-self: start; */
         font-family: 'Eurocat-Regular';
         color:antiquewhite
     }
@@ -88,7 +90,7 @@ body {
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
+/* @media only screen and (min-width:800px){
     .page-wrapper{
         display: grid;
         grid-gap: 25px;
@@ -160,36 +162,23 @@ h1 {
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-.container {
-    height: 100%;
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px auto 40px;
-    grid-template-areas: 
-        ". h h h h h h h h h h ."
-        "m c c c c c c c c c c c"
-        ". f f f f f f f f f f .";
-}
 
-.header {
-    grid-area: h;
-}
 
-.menu {
-    grid-area: m;
-}
 
 .content {
     grid-area: c;
 }
 
-.footer {
+footer {
     grid-area: f;
+    padding: 20px;
+    background-color: #7e7ece;
+    font-family: "EurocatSans-regular";
 }
 
 #fontdisplay {
     padding: 0em 11em;
+    
 }
 
 .paragraphs > p {
@@ -218,12 +207,13 @@ h1 {
 }
 .history2 {
     font-family: 'EurocatSans-Regular';
-    src: url("fonts/Roboto-Light.woff") format("woff"),
+    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
          url('fonts/EurocatSans-Regular.otf') format("truetype"),
         url('fonts/EurocatSans-Regular.woff2') format('woff2');
         color:white
         
 }
+
 
 
   
@@ -309,7 +299,8 @@ h5{
             
             
 }
-.container {
+
+/*.container {
     display: inline-flex; 
 }.half-width3,
 .half-width4 {
@@ -340,3 +331,4 @@ h5{
     color: white;
     font-family: 'EurocatBase-Regular';
   }
+
