@@ -191,27 +191,18 @@ footer {
 
 .variations {
     font-family: 'EurocatSans-Regular';
-    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
-         url('fonts/EurocatSans-Regular.otf') format("truetype"),
-        url('fonts/EurocatSans-Regular.woff2') format('woff2');
-        color:#000084
+    color:#000084
 
 }
 .history {
     font-family: 'EurocatSans-Regular';
-    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
-         url('fonts/EurocatSans-Regular.otf') format("truetype"),
-        url('fonts/EurocatSans-Regular.woff2') format('woff2');
-        color:white
+    color:white
 
 
 }
 .history2 {
     font-family: 'EurocatSans-Regular';
-    src: url("fonts/EurocatSans-Regular.woff") format("woff"),
-         url('fonts/EurocatSans-Regular.otf') format("truetype"),
-        url('fonts/EurocatSans-Regular.woff2') format('woff2');
-        color:white
+    color:white
         
 }
 
