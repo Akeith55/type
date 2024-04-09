@@ -31,7 +31,7 @@
 @font-face {    
     font-family: 'EurocatBase-Regular';
     src: url("fonts/EurocatBase-Regular.woff") format("woff"),
-         url('fonts/EurocatBase-Regular.otf') format("otf"),
+         url('fonts/EurocatBasVF.otf') format("ttf"),
          url('fonts/EurocatBase-Regular.woff2') format('woff2');
 }
 
