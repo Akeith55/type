@@ -55,6 +55,11 @@ body {
         font-family: 'EurocatBase-Regular';
         color:antiquewhite
     }
+    .header1 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
       
 
     .font2 {
@@ -63,7 +68,18 @@ body {
         color:antiquewhite
       }
 
+      .header2 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+
     .font3 {
+        /* align-self: start; */
+        font-family: 'Eurocat-Regular';
+        color:antiquewhite
+    }
+    .header3 {
         /* align-self: start; */
         font-family: 'Eurocat-Regular';
         color:antiquewhite
